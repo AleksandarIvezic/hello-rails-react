@@ -47,7 +47,8 @@ To open it in the browser, in the project directory, run:
  ```
  rails s
  ```
- and open `http:localhost:3000/`
+ in another terminal run `./bin/webpack-dev-server`
+ and open `http:localhost:3000/` on your browser.
 
 ## Author
 
