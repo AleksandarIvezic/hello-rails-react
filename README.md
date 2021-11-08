@@ -26,6 +26,7 @@ To get a local copy up and run the app, follow these simple example steps.
 - yarn > 1.22.15
 - Ruby > 2.7.2 
 - Rails > 6.1.4.1
+- Postgres > 14.0
 
 ### Setup
 
@@ -40,6 +41,12 @@ or download [ZIP file](https://github.com/ShinobiWarior/hello-rails-react/archiv
 To install all dependencies, run:
 ```
 yarn install
+```
+Create database and Messages table
+```
+rails db:create
+rails db:migrate
+rails db:seed
 ```
 ### Usage
 To open it in the browser, in the project directory, run:
