@@ -21,11 +21,11 @@ To get a local copy up and run the app, follow these simple example steps.
 
 ### Prerequisites
 
-- Node.js
-- npm
-- yarn
-- Ruby
-- Rails 
+- Node.js > 16.13.0
+- npm > 8.1.3
+- yarn > 1.22.15
+- Ruby > 2.7.2 
+- Rails > 6.1.4.1
 
 ### Setup
 
