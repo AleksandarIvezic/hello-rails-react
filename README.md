@@ -2,10 +2,11 @@
 
 # Hello rails react
 
-> "Hello rails react" project is a Rails app that uses react to display UI. It represents basic set up of Rails-React project. 
+> "Hello rails react" project is a Rails app that uses react to display UI. It represents basic setup for Rails-React project. 
 
 
-![screenshot](./public/screenshot.png)
+![screenshot](https://user-images.githubusercontent.com/63932912/140823115-1616aaa1-f185-47e3-8916-5eeab505afb8.png)
+
 
 ## Built With
 
@@ -22,6 +23,7 @@ To get a local copy up and run the app, follow these simple example steps.
 
 - Node.js
 - npm
+- yarn
 - Ruby
 - Rails 
 
@@ -30,28 +32,22 @@ To get a local copy up and run the app, follow these simple example steps.
 Clone the repository with:
 
 ```
-git clone git@github.com:ShinobiWarior/Covid-19-Tracking-Project.git
+git clone git@github.com:ShinobiWarior/hello-rails-react.git
 ```
-or download [ZIP file](https://github.com/ShinobiWarior/Covid-19-Tracking-Project/archive/refs/heads/dev.zip)
+or download [ZIP file](https://github.com/ShinobiWarior/hello-rails-react/archive/refs/heads/dev.zip)
 
 ### Install
 To install all dependencies, run:
 ```
-npm install
+yarn install
 ```
 ### Usage
 To open it in the browser, in the project directory, run:
 
  ```
- npm start
+ rails s
  ```
-
-## Run tests 
-To test the project, please run in the project directory:
-
-```
-npm test
-```
+ and open `http:localhost:3000/`
 
 ## Author
 
@@ -74,10 +70,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - This project was inspired by [Microverse](https://www.microverse.org/?grsf=w9rx3c)
-- Big thanks to:
-   - [Behance](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)) Design idea from [Nelson Sakwa](https://www.behance.net/sakwadesignstudio).
-   - and [Regis Freid](https://github.com/djaiss) and his [Svg maps](https://github.com/djaiss/mapsicon)
 
 ## 📝 License
 
-This project is [MIT](https://github.com/ShinobiWarior/Covid-19-Tracking-Project/blob/dev/LICENSE) licensed.
+This project is [MIT](https://github.com/ShinobiWarior/hello-rails-react/blob/setup/LICENSE) licensed.
