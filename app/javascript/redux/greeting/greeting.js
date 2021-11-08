@@ -1,4 +1,4 @@
-import getData from "../../helpers/getData";
+import getData from '../../helpers/getData';
 
 const LOAD = 'hello-rails-react/greeting/LOAD';
 
@@ -14,7 +14,7 @@ const loadGreetingThunk = () => async (dispatch) => {
   if (data) {
     dispatch(loadGreeting(data));
   }
-}
+};
 
 const greetingReducer = (state = initialValue, action) => {
   switch (action.type) {
@@ -26,6 +26,6 @@ const greetingReducer = (state = initialValue, action) => {
     default:
       return state;
   }
-}
+};
 
 export { greetingReducer, loadGreetingThunk };
