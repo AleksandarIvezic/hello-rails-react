@@ -62,7 +62,7 @@ To open it in the browser, in the project directory, run:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/ShinobiWarior/Covid-19-Tracking-Project/issues/).
+Feel free to check the [issues page](https://github.com/ShinobiWarior/hello-rails-react/issues/).
 
 ## Show your support
 
